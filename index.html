@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Duel</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./imgs/logo.png" />
+  </head>
+  <body>
+    <main class="main-Section container">
+      <div class="game-holder">
+        <div class="player-one active">
+          <h2 class="player-name">Player1</h2>
+          <h3 class="player-one-result">0</h3>
+          <div class="current-container">
+            <p class="current-label">Current</p>
+            <p class="player-one-current">0</p>
+          </div>
+        </div>
+        <div class="player-two">
+          <h2 class="player-name">Player2</h2>
+          <h3 class="player-two-result">0</h3>
+          <div class="current-container">
+            <p class="current-label">Current</p>
+            <p class="player-two-current">0</p>
+          </div>
+        </div>
+
+        <div class="game-rest">
+          <button class="btn" id="restBtn">🔁 New Game</button>
+        </div>
+        <div class="game-functionalty-holder">
+          <div class="dice-img-container"></div>
+          <div class="roll-dice-container">
+            <button class="btn" id="rollDiceBtn">🎲 Roll Dice</button>
+          </div>
+
+          <div class="hold-dice-container">
+            <button class="btn" id="holdScore">📥 Hold</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
